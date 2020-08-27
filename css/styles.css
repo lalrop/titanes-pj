@@ -1,0 +1,68 @@
+.logo-titanes{
+  max-width: 100%
+  }
+
+.experiencia{
+  font-size:0.9em;
+  padding-bottom: 2vh;
+}
+
+.cuadro-experiencia{
+  border: 1px solid #000000;
+}
+
+div.experiencia>p{
+  margin-bottom: 0px
+}
+
+.title{
+  font-family: vivaldi;
+  src: fonts/vivaldi.ttf;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.circle-group{
+  display: inline-block;
+  margin-left: 5px;
+  float: right;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+button.circle:focus{
+  background-color: black;
+}
+
+button.active{
+  background-color: black;
+}
+
+.dropdown{
+  width: 50%;
+  left:25%;
+  text-align-last: center;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px){
+  .experiencia{
+    text-align-last: right;
+  }
+  input{
+    width:40vw;
+  }
+
+}
